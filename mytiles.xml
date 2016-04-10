@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="TileSet" subresource_count="3" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://smb1_misc_sprites.tex" type="Texture" index="0"></ext_resource>
+	<resource type="RectangleShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 8.05401, 4.13481 </vector2>
+
+	</resource>
+	<main_resource>
+		<string name="0/name"> "Tile01" </string>
+		<resource name="0/texture" external="0">  </resource>
+		<vector2 name="0/tex_offset"> 0, 0 </vector2>
+		<resource name="0/material"></resource>		<rect2 name="0/region"> 373, 124, 16, 16 </rect2>
+		<vector2 name="0/occluder_offset"> 8, 8 </vector2>
+		<resource name="0/occluder"></resource>		<vector2 name="0/navigation_offset"> 8, 8 </vector2>
+		<resource name="0/navigation"></resource>		<vector2 name="0/shape_offset"> 8, 8 </vector2>
+		<array name="0/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="1/name"> "Tile2" </string>
+		<resource name="1/texture" external="0">  </resource>
+		<vector2 name="1/tex_offset"> 0, 0 </vector2>
+		<resource name="1/material"></resource>		<rect2 name="1/region"> 98, 179, 16, 16 </rect2>
+		<vector2 name="1/occluder_offset"> 8, 8 </vector2>
+		<resource name="1/occluder"></resource>		<vector2 name="1/navigation_offset"> 8, 8 </vector2>
+		<resource name="1/navigation"></resource>		<vector2 name="1/shape_offset"> 0, 0 </vector2>
+		<array name="1/shapes" len="0" shared="false">
+		</array>
+		<string name="2/name"> "Tile3" </string>
+		<resource name="2/texture" external="0">  </resource>
+		<vector2 name="2/tex_offset"> 0, 0 </vector2>
+		<resource name="2/material"></resource>		<rect2 name="2/region"> 114, 179, 16, 16 </rect2>
+		<vector2 name="2/occluder_offset"> 8, 8 </vector2>
+		<resource name="2/occluder"></resource>		<vector2 name="2/navigation_offset"> 8, 8 </vector2>
+		<resource name="2/navigation"></resource>		<vector2 name="2/shape_offset"> 0, 0 </vector2>
+		<array name="2/shapes" len="0" shared="false">
+		</array>
+		<string name="3/name"> "Tile4" </string>
+		<resource name="3/texture" external="0">  </resource>
+		<vector2 name="3/tex_offset"> 0, 0 </vector2>
+		<resource name="3/material"></resource>		<rect2 name="3/region"> 130, 179, 16, 16 </rect2>
+		<vector2 name="3/occluder_offset"> 8, 8 </vector2>
+		<resource name="3/occluder"></resource>		<vector2 name="3/navigation_offset"> 8, 8 </vector2>
+		<resource name="3/navigation"></resource>		<vector2 name="3/shape_offset"> 0, 0 </vector2>
+		<array name="3/shapes" len="0" shared="false">
+		</array>
+		<string name="4/name"> "Tile5" </string>
+		<resource name="4/texture" external="0">  </resource>
+		<vector2 name="4/tex_offset"> 0, 0 </vector2>
+		<resource name="4/material"></resource>		<rect2 name="4/region"> 146, 179, 16, 16 </rect2>
+		<vector2 name="4/occluder_offset"> 8, 8 </vector2>
+		<resource name="4/occluder"></resource>		<vector2 name="4/navigation_offset"> 8, 8 </vector2>
+		<resource name="4/navigation"></resource>		<vector2 name="4/shape_offset"> 0, 0 </vector2>
+		<array name="4/shapes" len="0" shared="false">
+		</array>
+		<string name="5/name"> "Tile6" </string>
+		<resource name="5/texture" external="0">  </resource>
+		<vector2 name="5/tex_offset"> 0, 0 </vector2>
+		<resource name="5/material"></resource>		<rect2 name="5/region"> 162, 179, 16, 16 </rect2>
+		<vector2 name="5/occluder_offset"> 8, 8 </vector2>
+		<resource name="5/occluder"></resource>		<vector2 name="5/navigation_offset"> 8, 8 </vector2>
+		<resource name="5/navigation"></resource>		<vector2 name="5/shape_offset"> 0, 0 </vector2>
+		<array name="5/shapes" len="0" shared="false">
+		</array>
+		<string name="6/name"> "Tile7" </string>
+		<resource name="6/texture" external="0">  </resource>
+		<vector2 name="6/tex_offset"> 0, 0 </vector2>
+		<resource name="6/material"></resource>		<rect2 name="6/region"> 114, 163, 16, 16 </rect2>
+		<vector2 name="6/occluder_offset"> 8, 8 </vector2>
+		<resource name="6/occluder"></resource>		<vector2 name="6/navigation_offset"> 8, 8 </vector2>
+		<resource name="6/navigation"></resource>		<vector2 name="6/shape_offset"> 0, 0 </vector2>
+		<array name="6/shapes" len="0" shared="false">
+		</array>
+		<string name="7/name"> "Tile8" </string>
+		<resource name="7/texture" external="0">  </resource>
+		<vector2 name="7/tex_offset"> 0, 0 </vector2>
+		<resource name="7/material"></resource>		<rect2 name="7/region"> 130, 163, 16, 16 </rect2>
+		<vector2 name="7/occluder_offset"> 8, 8 </vector2>
+		<resource name="7/occluder"></resource>		<vector2 name="7/navigation_offset"> 8, 8 </vector2>
+		<resource name="7/navigation"></resource>		<vector2 name="7/shape_offset"> 0, 0 </vector2>
+		<array name="7/shapes" len="0" shared="false">
+		</array>
+		<string name="8/name"> "Tile9" </string>
+		<resource name="8/texture" external="0">  </resource>
+		<vector2 name="8/tex_offset"> 0, 0 </vector2>
+		<resource name="8/material"></resource>		<rect2 name="8/region"> 146, 163, 16, 16 </rect2>
+		<vector2 name="8/occluder_offset"> 8, 8 </vector2>
+		<resource name="8/occluder"></resource>		<vector2 name="8/navigation_offset"> 8, 8 </vector2>
+		<resource name="8/navigation"></resource>		<vector2 name="8/shape_offset"> 0, 0 </vector2>
+		<array name="8/shapes" len="0" shared="false">
+		</array>
+		<string name="9/name"> "Tile10" </string>
+		<resource name="9/texture" external="0">  </resource>
+		<vector2 name="9/tex_offset"> 0, 0 </vector2>
+		<resource name="9/material"></resource>		<rect2 name="9/region"> 130, 147, 16, 16 </rect2>
+		<vector2 name="9/occluder_offset"> 8, 8 </vector2>
+		<resource name="9/occluder"></resource>		<vector2 name="9/navigation_offset"> 8, 8 </vector2>
+		<resource name="9/navigation"></resource>		<vector2 name="9/shape_offset"> 0, 0 </vector2>
+		<array name="9/shapes" len="0" shared="false">
+		</array>
+		<string name="10/name"> "Tile11" </string>
+		<resource name="10/texture" external="0">  </resource>
+		<vector2 name="10/tex_offset"> 0, 0 </vector2>
+		<resource name="10/material"></resource>		<rect2 name="10/region"> 77, 253, 16, 16 </rect2>
+		<vector2 name="10/occluder_offset"> 8, 8 </vector2>
+		<resource name="10/occluder"></resource>		<vector2 name="10/navigation_offset"> 8, 8 </vector2>
+		<resource name="10/navigation"></resource>		<vector2 name="10/shape_offset"> 0, 0 </vector2>
+		<array name="10/shapes" len="0" shared="false">
+		</array>
+		<string name="11/name"> "Tile12" </string>
+		<resource name="11/texture" external="0">  </resource>
+		<vector2 name="11/tex_offset"> 0, 0 </vector2>
+		<resource name="11/material"></resource>		<rect2 name="11/region"> 93, 253, 16, 16 </rect2>
+		<vector2 name="11/occluder_offset"> 8, 8 </vector2>
+		<resource name="11/occluder"></resource>		<vector2 name="11/navigation_offset"> 8, 8 </vector2>
+		<resource name="11/navigation"></resource>		<vector2 name="11/shape_offset"> 0, 0 </vector2>
+		<array name="11/shapes" len="0" shared="false">
+		</array>
+		<string name="12/name"> "Tile13" </string>
+		<resource name="12/texture" external="0">  </resource>
+		<vector2 name="12/tex_offset"> 0, 0 </vector2>
+		<resource name="12/material"></resource>		<rect2 name="12/region"> 109, 253, 16, 16 </rect2>
+		<vector2 name="12/occluder_offset"> 8, 8 </vector2>
+		<resource name="12/occluder"></resource>		<vector2 name="12/navigation_offset"> 8, 8 </vector2>
+		<resource name="12/navigation"></resource>		<vector2 name="12/shape_offset"> 0, 0 </vector2>
+		<array name="12/shapes" len="0" shared="false">
+		</array>
+		<string name="13/name"> "Tile14" </string>
+		<resource name="13/texture" external="0">  </resource>
+		<vector2 name="13/tex_offset"> 0, 0 </vector2>
+		<resource name="13/material"></resource>		<rect2 name="13/region"> 125, 253, 16, 16 </rect2>
+		<vector2 name="13/occluder_offset"> 8, 8 </vector2>
+		<resource name="13/occluder"></resource>		<vector2 name="13/navigation_offset"> 8, 8 </vector2>
+		<resource name="13/navigation"></resource>		<vector2 name="13/shape_offset"> 0, 0 </vector2>
+		<array name="13/shapes" len="0" shared="false">
+		</array>
+		<string name="14/name"> "Tile15" </string>
+		<resource name="14/texture" external="0">  </resource>
+		<vector2 name="14/tex_offset"> 0, 0 </vector2>
+		<resource name="14/material"></resource>		<rect2 name="14/region"> 48, 179, 16, 16 </rect2>
+		<vector2 name="14/occluder_offset"> 8, 8 </vector2>
+		<resource name="14/occluder"></resource>		<vector2 name="14/navigation_offset"> 8, 8 </vector2>
+		<resource name="14/navigation"></resource>		<vector2 name="14/shape_offset"> 0, 0 </vector2>
+		<array name="14/shapes" len="0" shared="false">
+		</array>
+		<string name="15/name"> "Tile16" </string>
+		<resource name="15/texture" external="0">  </resource>
+		<vector2 name="15/tex_offset"> 0, 0 </vector2>
+		<resource name="15/material"></resource>		<rect2 name="15/region"> 64, 179, 16, 16 </rect2>
+		<vector2 name="15/occluder_offset"> 8, 8 </vector2>
+		<resource name="15/occluder"></resource>		<vector2 name="15/navigation_offset"> 8, 8 </vector2>
+		<resource name="15/navigation"></resource>		<vector2 name="15/shape_offset"> 0, 0 </vector2>
+		<array name="15/shapes" len="0" shared="false">
+		</array>
+		<string name="16/name"> "Tile17" </string>
+		<resource name="16/texture" external="0">  </resource>
+		<vector2 name="16/tex_offset"> 0, 0 </vector2>
+		<resource name="16/material"></resource>		<rect2 name="16/region"> 80, 179, 16, 16 </rect2>
+		<vector2 name="16/occluder_offset"> 8, 8 </vector2>
+		<resource name="16/occluder"></resource>		<vector2 name="16/navigation_offset"> 8, 8 </vector2>
+		<resource name="16/navigation"></resource>		<vector2 name="16/shape_offset"> 0, 0 </vector2>
+		<array name="16/shapes" len="0" shared="false">
+		</array>
+		<string name="17/name"> "Tile18" </string>
+		<resource name="17/texture" external="0">  </resource>
+		<vector2 name="17/tex_offset"> 0, 0 </vector2>
+		<resource name="17/material"></resource>		<rect2 name="17/region"> 64, 163, 16, 16 </rect2>
+		<vector2 name="17/occluder_offset"> 8, 8 </vector2>
+		<resource name="17/occluder"></resource>		<vector2 name="17/navigation_offset"> 8, 8 </vector2>
+		<resource name="17/navigation"></resource>		<vector2 name="17/shape_offset"> 0, 0 </vector2>
+		<array name="17/shapes" len="0" shared="false">
+		</array>
+		<string name="18/name"> "Tile19" </string>
+		<resource name="18/texture" external="0">  </resource>
+		<vector2 name="18/tex_offset"> 0, 0 </vector2>
+		<resource name="18/material"></resource>		<rect2 name="18/region"> 35, 253, 16, 16 </rect2>
+		<vector2 name="18/occluder_offset"> 8, 8 </vector2>
+		<resource name="18/occluder"></resource>		<vector2 name="18/navigation_offset"> 8, 8 </vector2>
+		<resource name="18/navigation"></resource>		<vector2 name="18/shape_offset"> 0, 0 </vector2>
+		<array name="18/shapes" len="0" shared="false">
+		</array>
+		<string name="19/name"> "Tile20" </string>
+		<resource name="19/texture" external="0">  </resource>
+		<vector2 name="19/tex_offset"> 0, 0 </vector2>
+		<resource name="19/material"></resource>		<rect2 name="19/region"> 51, 253, 16, 16 </rect2>
+		<vector2 name="19/occluder_offset"> 8, 8 </vector2>
+		<resource name="19/occluder"></resource>		<vector2 name="19/navigation_offset"> 8, 8 </vector2>
+		<resource name="19/navigation"></resource>		<vector2 name="19/shape_offset"> 0, 0 </vector2>
+		<array name="19/shapes" len="0" shared="false">
+		</array>
+		<string name="20/name"> "Tile21" </string>
+		<resource name="20/texture" external="0">  </resource>
+		<vector2 name="20/tex_offset"> 0, 0 </vector2>
+		<resource name="20/material"></resource>		<rect2 name="20/region"> 67, 253, 16, 16 </rect2>
+		<vector2 name="20/occluder_offset"> 8, 8 </vector2>
+		<resource name="20/occluder"></resource>		<vector2 name="20/navigation_offset"> 8, 8 </vector2>
+		<resource name="20/navigation"></resource>		<vector2 name="20/shape_offset"> 0, 0 </vector2>
+		<array name="20/shapes" len="0" shared="false">
+		</array>
+		<string name="21/name"> "Tile22" </string>
+		<resource name="21/texture" external="0">  </resource>
+		<vector2 name="21/tex_offset"> 0, 0 </vector2>
+		<resource name="21/material"></resource>		<rect2 name="21/region"> 141, 253, 16, 16 </rect2>
+		<vector2 name="21/occluder_offset"> 8, 8 </vector2>
+		<resource name="21/occluder"></resource>		<vector2 name="21/navigation_offset"> 8, 8 </vector2>
+		<resource name="21/navigation"></resource>		<vector2 name="21/shape_offset"> 0, 0 </vector2>
+		<array name="21/shapes" len="0" shared="false">
+		</array>
+		<string name="22/name"> "Tile23" </string>
+		<resource name="22/texture" external="0">  </resource>
+		<vector2 name="22/tex_offset"> 0, 0 </vector2>
+		<resource name="22/material"></resource>		<rect2 name="22/region"> 372, 160, 16, 16 </rect2>
+		<vector2 name="22/occluder_offset"> 8, 8 </vector2>
+		<resource name="22/occluder"></resource>		<vector2 name="22/navigation_offset"> 8, 8 </vector2>
+		<resource name="22/navigation"></resource>		<vector2 name="22/shape_offset"> 8, 8 </vector2>
+		<array name="22/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="23/name"> "Tile24" </string>
+		<resource name="23/texture" external="0">  </resource>
+		<vector2 name="23/tex_offset"> 0, 0 </vector2>
+		<resource name="23/material"></resource>		<rect2 name="23/region"> 373, 47, 16, 16 </rect2>
+		<vector2 name="23/occluder_offset"> 8, 8 </vector2>
+		<resource name="23/occluder"></resource>		<vector2 name="23/navigation_offset"> 8, 8 </vector2>
+		<resource name="23/navigation"></resource>		<vector2 name="23/shape_offset"> 8, 8 </vector2>
+		<array name="23/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="24/name"> "Tile25" </string>
+		<resource name="24/texture" external="0">  </resource>
+		<vector2 name="24/tex_offset"> 0, 0 </vector2>
+		<resource name="24/material"></resource>		<rect2 name="24/region"> 614, 46, 16, 16 </rect2>
+		<vector2 name="24/occluder_offset"> 8, 8 </vector2>
+		<resource name="24/occluder"></resource>		<vector2 name="24/navigation_offset"> 8, 8 </vector2>
+		<resource name="24/navigation"></resource>		<vector2 name="24/shape_offset"> 8, 8 </vector2>
+		<array name="24/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="25/name"> "Tile26" </string>
+		<resource name="25/texture" external="0">  </resource>
+		<vector2 name="25/tex_offset"> 0, 0 </vector2>
+		<resource name="25/material"></resource>		<rect2 name="25/region"> 630, 46, 16, 16 </rect2>
+		<vector2 name="25/occluder_offset"> 8, 8 </vector2>
+		<resource name="25/occluder"></resource>		<vector2 name="25/navigation_offset"> 8, 8 </vector2>
+		<resource name="25/navigation"></resource>		<vector2 name="25/shape_offset"> 8, 8 </vector2>
+		<array name="25/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="26/name"> "Tile27" </string>
+		<resource name="26/texture" external="0">  </resource>
+		<vector2 name="26/tex_offset"> 0, 0 </vector2>
+		<resource name="26/material"></resource>		<rect2 name="26/region"> 614, 62, 16, 16 </rect2>
+		<vector2 name="26/occluder_offset"> 8, 8 </vector2>
+		<resource name="26/occluder"></resource>		<vector2 name="26/navigation_offset"> 8, 8 </vector2>
+		<resource name="26/navigation"></resource>		<vector2 name="26/shape_offset"> 8, 8 </vector2>
+		<array name="26/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="27/name"> "Tile28" </string>
+		<resource name="27/texture" external="0">  </resource>
+		<vector2 name="27/tex_offset"> 0, 0 </vector2>
+		<resource name="27/material"></resource>		<rect2 name="27/region"> 630, 62, 16, 16 </rect2>
+		<vector2 name="27/occluder_offset"> 8, 8 </vector2>
+		<resource name="27/occluder"></resource>		<vector2 name="27/navigation_offset"> 8, 8 </vector2>
+		<resource name="27/navigation"></resource>		<vector2 name="27/shape_offset"> 8, 8 </vector2>
+		<array name="27/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="28/name"> "Tile29" </string>
+		<resource name="28/texture" external="0">  </resource>
+		<vector2 name="28/tex_offset"> 0, 0 </vector2>
+		<resource name="28/material"></resource>		<rect2 name="28/region"> 614, 82, 16, 16 </rect2>
+		<vector2 name="28/occluder_offset"> 8, 8 </vector2>
+		<resource name="28/occluder"></resource>		<vector2 name="28/navigation_offset"> 8, 8 </vector2>
+		<resource name="28/navigation"></resource>		<vector2 name="28/shape_offset"> 8, 8 </vector2>
+		<array name="28/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="29/name"> "Tile30" </string>
+		<resource name="29/texture" external="0">  </resource>
+		<vector2 name="29/tex_offset"> 0, 0 </vector2>
+		<resource name="29/material"></resource>		<rect2 name="29/region"> 630, 82, 16, 16 </rect2>
+		<vector2 name="29/occluder_offset"> 8, 8 </vector2>
+		<resource name="29/occluder"></resource>		<vector2 name="29/navigation_offset"> 8, 8 </vector2>
+		<resource name="29/navigation"></resource>		<vector2 name="29/shape_offset"> 8, 8 </vector2>
+		<array name="29/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="30/name"> "Tile31" </string>
+		<resource name="30/texture" external="0">  </resource>
+		<vector2 name="30/tex_offset"> 0, 0 </vector2>
+		<resource name="30/material"></resource>		<rect2 name="30/region"> 373, 142, 16, 16 </rect2>
+		<vector2 name="30/occluder_offset"> 8, 8 </vector2>
+		<resource name="30/occluder"></resource>		<vector2 name="30/navigation_offset"> 8, 8 </vector2>
+		<resource name="30/navigation"></resource>		<vector2 name="30/shape_offset"> 8, 8 </vector2>
+		<array name="30/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="31/name"> "Tile32" </string>
+		<resource name="31/texture" external="0">  </resource>
+		<vector2 name="31/tex_offset"> 0, 0 </vector2>
+		<resource name="31/material"></resource>		<rect2 name="31/region"> 268, 198, 16, 16 </rect2>
+		<vector2 name="31/occluder_offset"> 8, 8 </vector2>
+		<resource name="31/occluder"></resource>		<vector2 name="31/navigation_offset"> 8, 8 </vector2>
+		<resource name="31/navigation"></resource>		<vector2 name="31/shape_offset"> 8, 8 </vector2>
+		<array name="31/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="32/name"> "Tile33" </string>
+		<resource name="32/texture" external="0">  </resource>
+		<vector2 name="32/tex_offset"> 0, 0 </vector2>
+		<resource name="32/material"></resource>		<rect2 name="32/region"> 268, 180, 16, 16 </rect2>
+		<vector2 name="32/occluder_offset"> 8, 8 </vector2>
+		<resource name="32/occluder"></resource>		<vector2 name="32/navigation_offset"> 8, 8 </vector2>
+		<resource name="32/navigation"></resource>		<vector2 name="32/shape_offset"> 8, 8 </vector2>
+		<array name="32/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="33/name"> "Tile34" </string>
+		<resource name="33/texture" external="0">  </resource>
+		<vector2 name="33/tex_offset"> 0, 0 </vector2>
+		<resource name="33/material"></resource>		<rect2 name="33/region"> 268, 54, 16, 16 </rect2>
+		<vector2 name="33/occluder_offset"> 8, 8 </vector2>
+		<resource name="33/occluder"></resource>		<vector2 name="33/navigation_offset"> 8, 8 </vector2>
+		<resource name="33/navigation"></resource>		<vector2 name="33/shape_offset"> 8, 8 </vector2>
+		<array name="33/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="34/name"> "Tile35" </string>
+		<resource name="34/texture" external="0">  </resource>
+		<vector2 name="34/tex_offset"> 0, 0 </vector2>
+		<resource name="34/material"></resource>		<rect2 name="34/region"> 252, 54, 16, 16 </rect2>
+		<vector2 name="34/occluder_offset"> 8, 8 </vector2>
+		<resource name="34/occluder"></resource>		<vector2 name="34/navigation_offset"> 8, 8 </vector2>
+		<resource name="34/navigation"></resource>		<vector2 name="34/shape_offset"> 8, 8 </vector2>
+		<array name="34/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="35/name"> "Tile36" </string>
+		<resource name="35/texture" external="0">  </resource>
+		<vector2 name="35/tex_offset"> 0, 0 </vector2>
+		<resource name="35/material"></resource>		<rect2 name="35/region"> 268, 38, 16, 16 </rect2>
+		<vector2 name="35/occluder_offset"> 8, 8 </vector2>
+		<resource name="35/occluder"></resource>		<vector2 name="35/navigation_offset"> 8, 8 </vector2>
+		<resource name="35/navigation"></resource>		<vector2 name="35/shape_offset"> 8, 8 </vector2>
+		<array name="35/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="36/name"> "Tile37" </string>
+		<resource name="36/texture" external="0">  </resource>
+		<vector2 name="36/tex_offset"> 0, 0 </vector2>
+		<resource name="36/material"></resource>		<rect2 name="36/region"> 272, 282, 16, 16 </rect2>
+		<vector2 name="36/occluder_offset"> 8, 8 </vector2>
+		<resource name="36/occluder"></resource>		<vector2 name="36/navigation_offset"> 8, 8 </vector2>
+		<resource name="36/navigation"></resource>		<vector2 name="36/shape_offset"> 0, 0 </vector2>
+		<array name="36/shapes" len="0" shared="false">
+		</array>
+		<string name="37/name"> "Tile38" </string>
+		<resource name="37/texture" external="0">  </resource>
+		<vector2 name="37/tex_offset"> 0, 0 </vector2>
+		<resource name="37/material"></resource>		<rect2 name="37/region"> 288, 282, 16, 16 </rect2>
+		<vector2 name="37/occluder_offset"> 8, 8 </vector2>
+		<resource name="37/occluder"></resource>		<vector2 name="37/navigation_offset"> 8, 8 </vector2>
+		<resource name="37/navigation"></resource>		<vector2 name="37/shape_offset"> 0, 0 </vector2>
+		<array name="37/shapes" len="0" shared="false">
+		</array>
+		<string name="38/name"> "Tile39" </string>
+		<resource name="38/texture" external="0">  </resource>
+		<vector2 name="38/tex_offset"> 0, 0 </vector2>
+		<resource name="38/material"></resource>		<rect2 name="38/region"> 304, 282, 16, 16 </rect2>
+		<vector2 name="38/occluder_offset"> 8, 8 </vector2>
+		<resource name="38/occluder"></resource>		<vector2 name="38/navigation_offset"> 8, 8 </vector2>
+		<resource name="38/navigation"></resource>		<vector2 name="38/shape_offset"> 0, 0 </vector2>
+		<array name="38/shapes" len="0" shared="false">
+		</array>
+		<string name="39/name"> "Tile40" </string>
+		<resource name="39/texture" external="0">  </resource>
+		<vector2 name="39/tex_offset"> 0, 0 </vector2>
+		<resource name="39/material"></resource>		<rect2 name="39/region"> 320, 282, 16, 16 </rect2>
+		<vector2 name="39/occluder_offset"> 8, 8 </vector2>
+		<resource name="39/occluder"></resource>		<vector2 name="39/navigation_offset"> 8, 8 </vector2>
+		<resource name="39/navigation"></resource>		<vector2 name="39/shape_offset"> 0, 0 </vector2>
+		<array name="39/shapes" len="0" shared="false">
+		</array>
+		<string name="40/name"> "Tile41" </string>
+		<resource name="40/texture" external="0">  </resource>
+		<vector2 name="40/tex_offset"> 0, 0 </vector2>
+		<resource name="40/material"></resource>		<rect2 name="40/region"> 336, 282, 16, 16 </rect2>
+		<vector2 name="40/occluder_offset"> 8, 8 </vector2>
+		<resource name="40/occluder"></resource>		<vector2 name="40/navigation_offset"> 8, 8 </vector2>
+		<resource name="40/navigation"></resource>		<vector2 name="40/shape_offset"> 0, 0 </vector2>
+		<array name="40/shapes" len="0" shared="false">
+		</array>
+		<string name="41/name"> "Tile42" </string>
+		<resource name="41/texture" external="0">  </resource>
+		<vector2 name="41/tex_offset"> 0, 0 </vector2>
+		<resource name="41/material"></resource>		<rect2 name="41/region"> 272, 266, 16, 16 </rect2>
+		<vector2 name="41/occluder_offset"> 8, 8 </vector2>
+		<resource name="41/occluder"></resource>		<vector2 name="41/navigation_offset"> 8, 8 </vector2>
+		<resource name="41/navigation"></resource>		<vector2 name="41/shape_offset"> 0, 0 </vector2>
+		<array name="41/shapes" len="0" shared="false">
+		</array>
+		<string name="42/name"> "Tile43" </string>
+		<resource name="42/texture" external="0">  </resource>
+		<vector2 name="42/tex_offset"> 0, 0 </vector2>
+		<resource name="42/material"></resource>		<rect2 name="42/region"> 288, 266, 16, 16 </rect2>
+		<vector2 name="42/occluder_offset"> 8, 8 </vector2>
+		<resource name="42/occluder"></resource>		<vector2 name="42/navigation_offset"> 8, 8 </vector2>
+		<resource name="42/navigation"></resource>		<vector2 name="42/shape_offset"> 0, 0 </vector2>
+		<array name="42/shapes" len="0" shared="false">
+		</array>
+		<string name="43/name"> "Tile44" </string>
+		<resource name="43/texture" external="0">  </resource>
+		<vector2 name="43/tex_offset"> 0, 0 </vector2>
+		<resource name="43/material"></resource>		<rect2 name="43/region"> 304, 266, 16, 16 </rect2>
+		<vector2 name="43/occluder_offset"> 8, 8 </vector2>
+		<resource name="43/occluder"></resource>		<vector2 name="43/navigation_offset"> 8, 8 </vector2>
+		<resource name="43/navigation"></resource>		<vector2 name="43/shape_offset"> 0, 0 </vector2>
+		<array name="43/shapes" len="0" shared="false">
+		</array>
+		<string name="44/name"> "Tile45" </string>
+		<resource name="44/texture" external="0">  </resource>
+		<vector2 name="44/tex_offset"> 0, 0 </vector2>
+		<resource name="44/material"></resource>		<rect2 name="44/region"> 320, 266, 16, 16 </rect2>
+		<vector2 name="44/occluder_offset"> 8, 8 </vector2>
+		<resource name="44/occluder"></resource>		<vector2 name="44/navigation_offset"> 8, 8 </vector2>
+		<resource name="44/navigation"></resource>		<vector2 name="44/shape_offset"> 0, 0 </vector2>
+		<array name="44/shapes" len="0" shared="false">
+		</array>
+		<string name="45/name"> "Tile46" </string>
+		<resource name="45/texture" external="0">  </resource>
+		<vector2 name="45/tex_offset"> 0, 0 </vector2>
+		<resource name="45/material"></resource>		<rect2 name="45/region"> 336, 266, 16, 16 </rect2>
+		<vector2 name="45/occluder_offset"> 8, 8 </vector2>
+		<resource name="45/occluder"></resource>		<vector2 name="45/navigation_offset"> 8, 8 </vector2>
+		<resource name="45/navigation"></resource>		<vector2 name="45/shape_offset"> 0, 0 </vector2>
+		<array name="45/shapes" len="0" shared="false">
+		</array>
+		<string name="46/name"> "Tile47" </string>
+		<resource name="46/texture" external="0">  </resource>
+		<vector2 name="46/tex_offset"> 0, 0 </vector2>
+		<resource name="46/material"></resource>		<rect2 name="46/region"> 272, 250, 16, 16 </rect2>
+		<vector2 name="46/occluder_offset"> 8, 8 </vector2>
+		<resource name="46/occluder"></resource>		<vector2 name="46/navigation_offset"> 8, 8 </vector2>
+		<resource name="46/navigation"></resource>		<vector2 name="46/shape_offset"> 0, 0 </vector2>
+		<array name="46/shapes" len="0" shared="false">
+		</array>
+		<string name="47/name"> "Tile48" </string>
+		<resource name="47/texture" external="0">  </resource>
+		<vector2 name="47/tex_offset"> 0, 0 </vector2>
+		<resource name="47/material"></resource>		<rect2 name="47/region"> 288, 250, 16, 16 </rect2>
+		<vector2 name="47/occluder_offset"> 8, 8 </vector2>
+		<resource name="47/occluder"></resource>		<vector2 name="47/navigation_offset"> 8, 8 </vector2>
+		<resource name="47/navigation"></resource>		<vector2 name="47/shape_offset"> 0, 0 </vector2>
+		<array name="47/shapes" len="0" shared="false">
+		</array>
+		<string name="48/name"> "Tile49" </string>
+		<resource name="48/texture" external="0">  </resource>
+		<vector2 name="48/tex_offset"> 0, 0 </vector2>
+		<resource name="48/material"></resource>		<rect2 name="48/region"> 304, 250, 16, 16 </rect2>
+		<vector2 name="48/occluder_offset"> 8, 8 </vector2>
+		<resource name="48/occluder"></resource>		<vector2 name="48/navigation_offset"> 8, 8 </vector2>
+		<resource name="48/navigation"></resource>		<vector2 name="48/shape_offset"> 0, 0 </vector2>
+		<array name="48/shapes" len="0" shared="false">
+		</array>
+		<string name="49/name"> "Tile50" </string>
+		<resource name="49/texture" external="0">  </resource>
+		<vector2 name="49/tex_offset"> 0, 0 </vector2>
+		<resource name="49/material"></resource>		<rect2 name="49/region"> 320, 250, 16, 16 </rect2>
+		<vector2 name="49/occluder_offset"> 8, 8 </vector2>
+		<resource name="49/occluder"></resource>		<vector2 name="49/navigation_offset"> 8, 8 </vector2>
+		<resource name="49/navigation"></resource>		<vector2 name="49/shape_offset"> 0, 0 </vector2>
+		<array name="49/shapes" len="0" shared="false">
+		</array>
+		<string name="50/name"> "Tile51" </string>
+		<resource name="50/texture" external="0">  </resource>
+		<vector2 name="50/tex_offset"> 0, 0 </vector2>
+		<resource name="50/material"></resource>		<rect2 name="50/region"> 336, 250, 16, 16 </rect2>
+		<vector2 name="50/occluder_offset"> 8, 8 </vector2>
+		<resource name="50/occluder"></resource>		<vector2 name="50/navigation_offset"> 8, 8 </vector2>
+		<resource name="50/navigation"></resource>		<vector2 name="50/shape_offset"> 0, 0 </vector2>
+		<array name="50/shapes" len="0" shared="false">
+		</array>
+		<string name="51/name"> "Tile53" </string>
+		<resource name="51/texture" external="0">  </resource>
+		<vector2 name="51/tex_offset"> 0, 0 </vector2>
+		<resource name="51/material"></resource>		<rect2 name="51/region"> 288, 234, 16, 16 </rect2>
+		<vector2 name="51/occluder_offset"> 8, 8 </vector2>
+		<resource name="51/occluder"></resource>		<vector2 name="51/navigation_offset"> 8, 8 </vector2>
+		<resource name="51/navigation"></resource>		<vector2 name="51/shape_offset"> 0, 0 </vector2>
+		<array name="51/shapes" len="0" shared="false">
+		</array>
+		<string name="52/name"> "Tile54" </string>
+		<resource name="52/texture" external="0">  </resource>
+		<vector2 name="52/tex_offset"> 0, 0 </vector2>
+		<resource name="52/material"></resource>		<rect2 name="52/region"> 304, 234, 16, 16 </rect2>
+		<vector2 name="52/occluder_offset"> 8, 8 </vector2>
+		<resource name="52/occluder"></resource>		<vector2 name="52/navigation_offset"> 8, 8 </vector2>
+		<resource name="52/navigation"></resource>		<vector2 name="52/shape_offset"> 0, 0 </vector2>
+		<array name="52/shapes" len="0" shared="false">
+		</array>
+		<string name="53/name"> "Tile55" </string>
+		<resource name="53/texture" external="0">  </resource>
+		<vector2 name="53/tex_offset"> 0, 0 </vector2>
+		<resource name="53/material"></resource>		<rect2 name="53/region"> 320, 234, 16, 16 </rect2>
+		<vector2 name="53/occluder_offset"> 8, 8 </vector2>
+		<resource name="53/occluder"></resource>		<vector2 name="53/navigation_offset"> 8, 8 </vector2>
+		<resource name="53/navigation"></resource>		<vector2 name="53/shape_offset"> 0, 0 </vector2>
+		<array name="53/shapes" len="0" shared="false">
+		</array>
+		<string name="54/name"> "Tile57" </string>
+		<resource name="54/texture" external="0">  </resource>
+		<vector2 name="54/tex_offset"> 0, 0 </vector2>
+		<resource name="54/material"></resource>		<rect2 name="54/region"> 288, 218, 16, 16 </rect2>
+		<vector2 name="54/occluder_offset"> 8, 8 </vector2>
+		<resource name="54/occluder"></resource>		<vector2 name="54/navigation_offset"> 8, 8 </vector2>
+		<resource name="54/navigation"></resource>		<vector2 name="54/shape_offset"> 0, 0 </vector2>
+		<array name="54/shapes" len="0" shared="false">
+		</array>
+		<string name="55/name"> "Tile58" </string>
+		<resource name="55/texture" external="0">  </resource>
+		<vector2 name="55/tex_offset"> 0, 0 </vector2>
+		<resource name="55/material"></resource>		<rect2 name="55/region"> 304, 218, 16, 16 </rect2>
+		<vector2 name="55/occluder_offset"> 8, 8 </vector2>
+		<resource name="55/occluder"></resource>		<vector2 name="55/navigation_offset"> 8, 8 </vector2>
+		<resource name="55/navigation"></resource>		<vector2 name="55/shape_offset"> 0, 0 </vector2>
+		<array name="55/shapes" len="0" shared="false">
+		</array>
+		<string name="56/name"> "Tile59" </string>
+		<resource name="56/texture" external="0">  </resource>
+		<vector2 name="56/tex_offset"> 0, 0 </vector2>
+		<resource name="56/material"></resource>		<rect2 name="56/region"> 320, 218, 16, 16 </rect2>
+		<vector2 name="56/occluder_offset"> 8, 8 </vector2>
+		<resource name="56/occluder"></resource>		<vector2 name="56/navigation_offset"> 8, 8 </vector2>
+		<resource name="56/navigation"></resource>		<vector2 name="56/shape_offset"> 0, 0 </vector2>
+		<array name="56/shapes" len="0" shared="false">
+		</array>
+		<string name="57/name"> "Tile52" </string>
+		<resource name="57/texture" external="0">  </resource>
+		<vector2 name="57/tex_offset"> 0, 0 </vector2>
+		<resource name="57/material"></resource>		<rect2 name="57/region"> 614, 102, 16, 16 </rect2>
+		<vector2 name="57/occluder_offset"> 8, 8 </vector2>
+		<resource name="57/occluder"></resource>		<vector2 name="57/navigation_offset"> 8, 8 </vector2>
+		<resource name="57/navigation"></resource>		<vector2 name="57/shape_offset"> 8, 8 </vector2>
+		<array name="57/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="58/name"> "Tile56" </string>
+		<resource name="58/texture" external="0">  </resource>
+		<vector2 name="58/tex_offset"> 0, 0 </vector2>
+		<resource name="58/material"></resource>		<rect2 name="58/region"> 630, 102, 16, 16 </rect2>
+		<vector2 name="58/occluder_offset"> 8, 8 </vector2>
+		<resource name="58/occluder"></resource>		<vector2 name="58/navigation_offset"> 8, 8 </vector2>
+		<resource name="58/navigation"></resource>		<vector2 name="58/shape_offset"> 8, 8 </vector2>
+		<array name="58/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="59/name"> "Tile60" </string>
+		<resource name="59/texture" external="0">  </resource>
+		<vector2 name="59/tex_offset"> 0, 0 </vector2>
+		<resource name="59/material"></resource>		<rect2 name="59/region"> 614, 118, 16, 16 </rect2>
+		<vector2 name="59/occluder_offset"> 8, 8 </vector2>
+		<resource name="59/occluder"></resource>		<vector2 name="59/navigation_offset"> 8, 8 </vector2>
+		<resource name="59/navigation"></resource>		<vector2 name="59/shape_offset"> 8, 8 </vector2>
+		<array name="59/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="60/name"> "Tile61" </string>
+		<resource name="60/texture" external="0">  </resource>
+		<vector2 name="60/tex_offset"> 0, 0 </vector2>
+		<resource name="60/material"></resource>		<rect2 name="60/region"> 589, 102, 16, 16 </rect2>
+		<vector2 name="60/occluder_offset"> 8, 8 </vector2>
+		<resource name="60/occluder"></resource>		<vector2 name="60/navigation_offset"> 8, 8 </vector2>
+		<resource name="60/navigation"></resource>		<vector2 name="60/shape_offset"> 8, 8 </vector2>
+		<array name="60/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="61/name"> "Tile62" </string>
+		<resource name="61/texture" external="0">  </resource>
+		<vector2 name="61/tex_offset"> 0, 0 </vector2>
+		<resource name="61/material"></resource>		<rect2 name="61/region"> 589, 118, 16, 16 </rect2>
+		<vector2 name="61/occluder_offset"> 8, 8 </vector2>
+		<resource name="61/occluder"></resource>		<vector2 name="61/navigation_offset"> 8, 8 </vector2>
+		<resource name="61/navigation"></resource>		<vector2 name="61/shape_offset"> 8, 8 </vector2>
+		<array name="61/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="62/name"> "Tile63" </string>
+		<resource name="62/texture" external="0">  </resource>
+		<vector2 name="62/tex_offset"> 0, 0 </vector2>
+		<resource name="62/material"></resource>		<rect2 name="62/region"> 573, 102, 16, 16 </rect2>
+		<vector2 name="62/occluder_offset"> 8, 8 </vector2>
+		<resource name="62/occluder"></resource>		<vector2 name="62/navigation_offset"> 8, 8 </vector2>
+		<resource name="62/navigation"></resource>		<vector2 name="62/shape_offset"> 8, 8 </vector2>
+		<array name="62/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="63/name"> "Tile64" </string>
+		<resource name="63/texture" external="0">  </resource>
+		<vector2 name="63/tex_offset"> 0, 0 </vector2>
+		<resource name="63/material"></resource>		<rect2 name="63/region"> 573, 118, 16, 16 </rect2>
+		<vector2 name="63/occluder_offset"> 8, 8 </vector2>
+		<resource name="63/occluder"></resource>		<vector2 name="63/navigation_offset"> 8, 8 </vector2>
+		<resource name="63/navigation"></resource>		<vector2 name="63/shape_offset"> 8, 8 </vector2>
+		<array name="63/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="64/name"> "Tile65" </string>
+		<resource name="64/texture" external="0">  </resource>
+		<vector2 name="64/tex_offset"> 0, 0 </vector2>
+		<resource name="64/material"></resource>		<rect2 name="64/region"> 393, 124, 16, 16 </rect2>
+		<vector2 name="64/occluder_offset"> 8, 8 </vector2>
+		<resource name="64/occluder"></resource>		<vector2 name="64/navigation_offset"> 8, 8 </vector2>
+		<resource name="64/navigation"></resource>		<vector2 name="64/shape_offset"> 8, 8 </vector2>
+		<array name="64/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="65/name"> "Tile66" </string>
+		<resource name="65/texture" external="0">  </resource>
+		<vector2 name="65/tex_offset"> 0, 0 </vector2>
+		<resource name="65/material"></resource>		<rect2 name="65/region"> 393, 102, 16, 16 </rect2>
+		<vector2 name="65/occluder_offset"> 8, 8 </vector2>
+		<resource name="65/occluder"></resource>		<vector2 name="65/navigation_offset"> 8, 8 </vector2>
+		<resource name="65/navigation"></resource>		<vector2 name="65/shape_offset"> 8, 8 </vector2>
+		<array name="65/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="66/name"> "Tile67" </string>
+		<resource name="66/texture" external="0">  </resource>
+		<vector2 name="66/tex_offset"> 0, 0 </vector2>
+		<resource name="66/material"></resource>		<rect2 name="66/region"> 429, 178, 16, 16 </rect2>
+		<vector2 name="66/occluder_offset"> 8, 8 </vector2>
+		<resource name="66/occluder"></resource>		<vector2 name="66/navigation_offset"> 8, 8 </vector2>
+		<resource name="66/navigation"></resource>		<vector2 name="66/shape_offset"> 0, 0 </vector2>
+		<array name="66/shapes" len="0" shared="false">
+		</array>
+
+	</main_resource>
+</resource_file>
