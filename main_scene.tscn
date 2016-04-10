@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=1]
 
 [ext_resource path="res://mytiles.xml" type="TileSet" id=1]
-[ext_resource path="res://scenes/player_mario/player_mario.scn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/player_mario/player_mario.tscn" type="PackedScene" id=2]
 
 [node name="Node2D" type="Node2D"]
 
@@ -27,10 +27,15 @@ tile_data = IntArray( -720698, 35, -655163, 34, -655162, 33, -589626, 32, -52426
 [node name="KinematicBody2D" parent="." instance=ExtResource( 2 )]
 
 transform/pos = Vector2( 389.179, 179.621 )
+collision/margin = 0.08
 
 [node name="Camera2D" parent="KinematicBody2D"]
 
 current = true
+drag_margin/left = 0.2
+drag_margin/top = 0.2
+drag_margin/right = 0.2
+drag_margin/bottom = 0.2
 
 
 [editable path="KinematicBody2D"]
