@@ -41,7 +41,7 @@ tracks/0/keys = { "cont":true, "times":FloatArray( 0, 0.2, 0.4 ), "transitions":
 
 input/pickable = false
 shapes/0/shape = SubResource( 1 )
-shapes/0/transform = Matrix32( 0.791951, -0, 0, 0.793007, 7.98796, 8.04101 )
+shapes/0/transform = Matrix32( 0.791951, 0, 0, 0.793007, 7.98796, 8.04101 )
 shapes/0/trigger = false
 collision/layers = 1
 collision/mask = 1
@@ -52,7 +52,7 @@ bounce = 0.0
 gravity_scale = 1.0
 custom_integrator = false
 continuous_cd = 2
-contacts_reported = 5
+contacts_reported = 100
 contact_monitor = true
 sleeping = false
 can_sleep = true
