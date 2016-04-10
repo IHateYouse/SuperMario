@@ -2,7 +2,6 @@
 
 [ext_resource path="res://mytiles.xml" type="TileSet" id=1]
 [ext_resource path="res://scenes/player_mario/player_mario.tscn" type="PackedScene" id=2]
-<<<<<<< HEAD
 [ext_resource path="res://scenes/player_mario/mario_sheet.png" type="Texture" id=3]
 
 [sub_resource type="Animation" id=1]
@@ -15,8 +14,6 @@ tracks/0/type = "value"
 tracks/0/path = NodePath(".:frame")
 tracks/0/interp = 1
 tracks/0/keys = { "cont":false, "times":FloatArray( 0, 0.1, 0.2 ), "transitions":FloatArray( 1, 1, 1 ), "values":[ 12, 13, 14 ] }
-=======
->>>>>>> origin/master
 
 [node name="Node2D" type="Node2D"]
 
@@ -43,7 +40,6 @@ tile_data = IntArray( -720698, 35, -655163, 34, -655162, 33, -589626, 32, -52426
 
 transform/pos = Vector2( 389.179, 179.621 )
 collision/margin = 0.08
-<<<<<<< HEAD
 
 [node name="Sprite" parent="KinematicBody2D"]
 
@@ -67,8 +63,6 @@ autoplay = ""
 
 transform/pos = Vector2( 0.158798, -0.0448551 )
 transform/scale = Vector2( 1.67579, 1.0034 )
-=======
->>>>>>> origin/master
 
 [node name="Camera2D" parent="KinematicBody2D"]
 
