@@ -1,9 +1,8 @@
-[gd_scene load_steps=6 format=1]
+[gd_scene load_steps=5 format=1]
 
 [ext_resource path="res://mytiles.xml" type="TileSet" id=1]
 [ext_resource path="res://scenes/player_mario/player_mario.tscn" type="PackedScene" id=2]
-[ext_resource path="res://scenes/player_mario/mario_sheet.png" type="Texture" id=3]
-[ext_resource path="res://scenes/blocks/coin_block.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/blocks/coin_block.tscn" type="PackedScene" id=3]
 
 [sub_resource type="Animation" id=1]
 
@@ -44,9 +43,6 @@ collision/margin = 0.08
 
 [node name="Sprite" parent="KinematicBody2D"]
 
-texture = ExtResource( 3 )
-vframes = 6
-hframes = 4
 frame = 14
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="KinematicBody2D/Sprite"]
@@ -73,7 +69,7 @@ drag_margin/top = 0.2
 drag_margin/right = 0.2
 drag_margin/bottom = 0.2
 
-[node name="coin_block" parent="." instance=ExtResource( 4 )]
+[node name="coin_block" parent="." instance=ExtResource( 3 )]
 
 transform/pos = Vector2( 416, 240 )
 
