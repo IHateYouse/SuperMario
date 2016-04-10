@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 3.98047, 8.102 )
+extents = Vector2( 6.3497, 7.31222 )
 
 [sub_resource type="Animation" id=2]
 
@@ -44,7 +44,7 @@ tracks/0/keys = { "cont":true, "times":FloatArray( 0, 0.2 ), "transitions":Float
 
 input/pickable = false
 shapes/0/shape = SubResource( 1 )
-shapes/0/transform = Matrix32( 1.10424, 0, 0, 1, -0.237868, -0.0826435 )
+shapes/0/transform = Matrix32( 1.10424, -0, 0, 1.66652, -0.0232303, -0.299756 )
 shapes/0/trigger = false
 collision/layers = 1
 collision/mask = 1
@@ -75,8 +75,8 @@ autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 
-transform/pos = Vector2( -0.237868, -0.0826435 )
-transform/scale = Vector2( 1.10424, 1 )
+transform/pos = Vector2( -0.0232303, -0.299756 )
+transform/scale = Vector2( 1.10424, 1.66652 )
 shape = SubResource( 1 )
 trigger = false
 _update_shape_index = 0
