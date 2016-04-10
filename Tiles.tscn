@@ -1,0 +1,1052 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://smb1_misc_sprites.tex" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8.05401, 4.13481 )
+
+[node name="Node" type="Node"]
+
+[node name="Tile01" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 8 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 373, 124, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile01"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile01/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 98, 179, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 114, 179, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile4" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 130, 179, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile5" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 146, 179, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile6" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 162, 179, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile7" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 24 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 114, 163, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile8" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 24 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 130, 163, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile9" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 24 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 146, 163, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile10" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 8 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 130, 147, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile11" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 77, 253, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile12" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 93, 253, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile13" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 109, 253, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile14" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 125, 253, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile15" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 120 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 48, 179, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile16" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 120 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 179, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile17" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 120 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 80, 179, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile18" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 104 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 163, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile19" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 152 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 35, 253, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile20" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 152 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 51, 253, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile21" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 152 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 67, 253, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile22" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 141, 253, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile23" type="Sprite" parent="."]
+
+transform/pos = Vector2( 88, 8 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 372, 160, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile23"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile23/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile24" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 8 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 373, 47, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile24"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile24/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile25" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 614, 46, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile25"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile25/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile26" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 630, 46, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile26"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile26/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile27" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 56 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 614, 62, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile27"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile27/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile28" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 56 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 630, 62, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile28"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile28/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile29" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 614, 82, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile29"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile29/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile30" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 630, 82, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile30"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile30/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile31" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 8 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 373, 142, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile31"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile31/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile32" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 152 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 268, 198, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile32"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile32/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile33" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 136 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 268, 180, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile33"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile33/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile34" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 120 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 268, 54, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile34"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile34/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile35" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 120 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 252, 54, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile35"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile35/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile36" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 104 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 268, 38, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile36"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile36/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile37" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 88 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 272, 282, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile38" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 88 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 288, 282, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile39" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 88 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 304, 282, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile40" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 88 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 320, 282, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile41" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 88 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 336, 282, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile42" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 272, 266, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile43" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 288, 266, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile44" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 304, 266, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile45" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 320, 266, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile46" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 72 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 336, 266, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile47" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 56 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 272, 250, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile48" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 56 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 288, 250, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile49" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 56 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 304, 250, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile50" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 56 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 320, 250, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile51" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 56 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 336, 250, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile53" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 288, 234, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile54" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 304, 234, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile55" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 320, 234, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile57" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 24 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 288, 218, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile58" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 24 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 304, 218, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile59" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 24 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 320, 218, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile52" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 614, 102, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile52"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile52/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile56" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 40 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 630, 102, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile56"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile56/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile60" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 56 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 614, 118, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile60"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile60/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile61" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 104 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 589, 102, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile61"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile61/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile62" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 120 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 589, 118, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile62"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile62/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile63" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 104 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 573, 102, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile63"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile63/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile64" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 120 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 573, 118, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile64"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile64/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile65" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 8 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 393, 124, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile65"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile65/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile66" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 8 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 393, 102, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Tile66"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile66/StaticBody2D"]
+
+transform/pos = Vector2( -0.0425301, 0.0326257 )
+transform/scale = Vector2( 1, 1.93313 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Tile67" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 104 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 429, 178, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+
