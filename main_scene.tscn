@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=1]
+[gd_scene load_steps=6 format=1]
 
 [ext_resource path="res://mytiles.xml" type="TileSet" id=1]
 [ext_resource path="res://scenes/player_mario/player_mario.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scenes/player_mario/mario_sheet.png" type="Texture" id=3]
+[ext_resource path="res://scenes/blocks/coin_block.tscn" type="PackedScene" id=4]
 
 [sub_resource type="Animation" id=1]
 
@@ -19,7 +20,7 @@ tracks/0/keys = { "cont":false, "times":FloatArray( 0, 0.1, 0.2 ), "transitions"
 
 [node name="TileMap" type="TileMap" parent="."]
 
-transform/pos = Vector2( 185.169, 260 )
+transform/pos = Vector2( 256, 256 )
 mode = 0
 tile_set = ExtResource( 1 )
 cell/size = Vector2( 16, 16 )
@@ -71,6 +72,10 @@ drag_margin/left = 0.2
 drag_margin/top = 0.2
 drag_margin/right = 0.2
 drag_margin/bottom = 0.2
+
+[node name="coin_block" parent="." instance=ExtResource( 4 )]
+
+transform/pos = Vector2( 416, 240 )
 
 
 [editable path="KinematicBody2D"]

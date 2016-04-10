@@ -41,7 +41,7 @@ tracks/0/keys = { "cont":true, "times":FloatArray( 0, 0.2, 0.4 ), "transitions":
 
 input/pickable = false
 shapes/0/shape = SubResource( 1 )
-shapes/0/transform = Matrix32( 0.780488, 0, 0, 0.780488, 7.83677, 7.87826 )
+shapes/0/transform = Matrix32( 0.791951, -0, 0, 0.793007, 7.98796, 8.04101 )
 shapes/0/trigger = false
 collision/layers = 1
 collision/mask = 1
@@ -66,7 +66,8 @@ coins = 1
 
 [node name="coin" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 7.91603, 8.21674 )
+visibility/visible = false
+transform/pos = Vector2( 7.91603, -31.7833 )
 
 [node name="block" type="Sprite" parent="."]
 
@@ -99,8 +100,8 @@ autoplay = ""
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 
-transform/pos = Vector2( 7.83677, 7.87826 )
-transform/scale = Vector2( 0.780488, 0.780488 )
+transform/pos = Vector2( 7.98796, 8.04101 )
+transform/scale = Vector2( 0.791951, 0.793007 )
 shape = SubResource( 1 )
 trigger = false
 _update_shape_index = 0
