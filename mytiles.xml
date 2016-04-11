@@ -634,6 +634,69 @@
 		<resource name="66/navigation"></resource>		<vector2 name="66/shape_offset"> 0, 0 </vector2>
 		<array name="66/shapes" len="0" shared="false">
 		</array>
+		<string name="67/name"> "Tile68" </string>
+		<resource name="67/texture" external="0">  </resource>
+		<vector2 name="67/tex_offset"> 0, 0 </vector2>
+		<resource name="67/material"></resource>		<rect2 name="67/region"> 274, 331, 16, 16 </rect2>
+		<vector2 name="67/occluder_offset"> 8, 8 </vector2>
+		<resource name="67/occluder"></resource>		<vector2 name="67/navigation_offset"> 8, 8 </vector2>
+		<resource name="67/navigation"></resource>		<vector2 name="67/shape_offset"> 0, 0 </vector2>
+		<array name="67/shapes" len="0" shared="false">
+		</array>
+		<string name="68/name"> "Tile69" </string>
+		<resource name="68/texture" external="0">  </resource>
+		<vector2 name="68/tex_offset"> 0, 0 </vector2>
+		<resource name="68/material"></resource>		<rect2 name="68/region"> 38, 153, 16, 16 </rect2>
+		<vector2 name="68/occluder_offset"> 8, 8 </vector2>
+		<resource name="68/occluder"></resource>		<vector2 name="68/navigation_offset"> 8, 8 </vector2>
+		<resource name="68/navigation"></resource>		<vector2 name="68/shape_offset"> 0, 0 </vector2>
+		<array name="68/shapes" len="0" shared="false">
+		</array>
+		<string name="69/name"> "Tile70" </string>
+		<resource name="69/texture" external="0">  </resource>
+		<vector2 name="69/tex_offset"> 0, 0 </vector2>
+		<resource name="69/material"></resource>		<rect2 name="69/region"> 54, 153, 16, 16 </rect2>
+		<vector2 name="69/occluder_offset"> 8, 8 </vector2>
+		<resource name="69/occluder"></resource>		<vector2 name="69/navigation_offset"> 8, 8 </vector2>
+		<resource name="69/navigation"></resource>		<vector2 name="69/shape_offset"> 0, 0 </vector2>
+		<array name="69/shapes" len="0" shared="false">
+		</array>
+		<string name="70/name"> "Tile71" </string>
+		<resource name="70/texture" external="0">  </resource>
+		<vector2 name="70/tex_offset"> 0, 0 </vector2>
+		<resource name="70/material"></resource>		<rect2 name="70/region"> 86, 153, 16, 16 </rect2>
+		<vector2 name="70/occluder_offset"> 8, 8 </vector2>
+		<resource name="70/occluder"></resource>		<vector2 name="70/navigation_offset"> 8, 8 </vector2>
+		<resource name="70/navigation"></resource>		<vector2 name="70/shape_offset"> 0, 0 </vector2>
+		<array name="70/shapes" len="0" shared="false">
+		</array>
+		<string name="71/name"> "Tile72" </string>
+		<resource name="71/texture" external="0">  </resource>
+		<vector2 name="71/tex_offset"> 0, 0 </vector2>
+		<resource name="71/material"></resource>		<rect2 name="71/region"> 54, 137, 16, 16 </rect2>
+		<vector2 name="71/occluder_offset"> 8, 8 </vector2>
+		<resource name="71/occluder"></resource>		<vector2 name="71/navigation_offset"> 8, 8 </vector2>
+		<resource name="71/navigation"></resource>		<vector2 name="71/shape_offset"> 0, 0 </vector2>
+		<array name="71/shapes" len="0" shared="false">
+		</array>
+		<string name="72/name"> "Tile73" </string>
+		<resource name="72/texture" external="0">  </resource>
+		<vector2 name="72/tex_offset"> 0, 0 </vector2>
+		<resource name="72/material"></resource>		<rect2 name="72/region"> 38, 137, 16, 16 </rect2>
+		<vector2 name="72/occluder_offset"> 8, 8 </vector2>
+		<resource name="72/occluder"></resource>		<vector2 name="72/navigation_offset"> 8, 8 </vector2>
+		<resource name="72/navigation"></resource>		<vector2 name="72/shape_offset"> 0, 0 </vector2>
+		<array name="72/shapes" len="0" shared="false">
+		</array>
+		<string name="73/name"> "Tile74" </string>
+		<resource name="73/texture" external="0">  </resource>
+		<vector2 name="73/tex_offset"> 0, 0 </vector2>
+		<resource name="73/material"></resource>		<rect2 name="73/region"> 86, 137, 16, 16 </rect2>
+		<vector2 name="73/occluder_offset"> 8, 8 </vector2>
+		<resource name="73/occluder"></resource>		<vector2 name="73/navigation_offset"> 8, 8 </vector2>
+		<resource name="73/navigation"></resource>		<vector2 name="73/shape_offset"> 0, 0 </vector2>
+		<array name="73/shapes" len="0" shared="false">
+		</array>
 
 	</main_resource>
 </resource_file>

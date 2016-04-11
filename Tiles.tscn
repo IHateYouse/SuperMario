@@ -20,7 +20,7 @@ region_rect = Rect2( 373, 124, 16, 16 )
 
 input/pickable = false
 shapes/0/shape = SubResource( 1 )
-shapes/0/transform = Matrix32( 1.00844, -0, 0, 1.93973, 0.0454413, -0.0994836 )
+shapes/0/transform = Matrix32( 1.00844, 0, 0, 1.93973, 0.0454413, -0.0994836 )
 shapes/0/trigger = false
 collision/layers = 1
 collision/mask = 1
@@ -1046,6 +1046,62 @@ transform/pos = Vector2( 72, 104 )
 texture = ExtResource( 1 )
 region = true
 region_rect = Rect2( 429, 178, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile68" type="Sprite" parent="."]
+
+transform/pos = Vector2( 214.154, 8.62009 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 274, 331, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile69" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 188 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 38, 153, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile70" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 188 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 54, 153, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile71" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 188 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 86, 153, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile72" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 172 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 54, 137, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile73" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 172 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 38, 137, 16, 16 )
+__meta__ = { "_edit_group_":true }
+
+[node name="Tile74" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 172 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 86, 137, 16, 16 )
 __meta__ = { "_edit_group_":true }
 
 
