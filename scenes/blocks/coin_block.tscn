@@ -39,6 +39,7 @@ tracks/0/keys = { "cont":true, "times":FloatArray( 0, 0.2, 0.4 ), "transitions":
 
 [node name="coin_block" type="RigidBody2D"]
 
+process/pause_mode = 2
 input/pickable = false
 shapes/0/shape = SubResource( 1 )
 shapes/0/transform = Matrix32( 0.791951, 0, 0, 0.793007, 7.98796, 8.04101 )
@@ -52,7 +53,7 @@ bounce = 0.0
 gravity_scale = 1.0
 custom_integrator = false
 continuous_cd = 2
-contacts_reported = 100
+contacts_reported = 2
 contact_monitor = true
 sleeping = false
 can_sleep = true

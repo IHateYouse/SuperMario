@@ -15,13 +15,12 @@ transform/pos = Vector2( 8, 8 )
 texture = ExtResource( 1 )
 region = true
 region_rect = Rect2( 373, 124, 16, 16 )
-__meta__ = { "_edit_group_":true }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Tile01"]
 
 input/pickable = false
 shapes/0/shape = SubResource( 1 )
-shapes/0/transform = Matrix32( 1, 0, 0, 1.93313, -0.0425301, 0.0326257 )
+shapes/0/transform = Matrix32( 1.00844, -0, 0, 1.93973, 0.0454413, -0.0994836 )
 shapes/0/trigger = false
 collision/layers = 1
 collision/mask = 1
@@ -32,8 +31,8 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile01/StaticBody2D"]
 
-transform/pos = Vector2( -0.0425301, 0.0326257 )
-transform/scale = Vector2( 1, 1.93313 )
+transform/pos = Vector2( 0.0454413, -0.0994836 )
+transform/scale = Vector2( 1.00844, 1.93973 )
 shape = SubResource( 1 )
 trigger = false
 _update_shape_index = 0

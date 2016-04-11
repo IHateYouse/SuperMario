@@ -15,7 +15,7 @@ length = 20.0
 [sub_resource type="ConvexPolygonShape2D" id=2]
 
 custom_solver_bias = 0.0
-points = Vector2Array( -19.902, -24.8691, 19.3625, -24.6056, -0.138023, 16.5036 )
+points = Vector2Array( -0.138023, 16.5036, -19.902, -24.8691, 19.3625, -24.6056 )
 
 [sub_resource type="ColorRamp" id=3]
 
@@ -127,18 +127,18 @@ tracks/0/keys = { "cont":false, "times":FloatArray( 0, 0.25, 0.5, 0.75, 1, 1.25 
 
 [sub_resource type="SampleLibrary" id=14]
 
-samples/shoot = { "db":0.0, "pitch":1.0, "sample":ExtResource( 6 ) }
 samples/jump = { "db":0.0, "pitch":1.0, "sample":ExtResource( 5 ) }
 samples/coin = { "db":0.0, "pitch":1.0, "sample":ExtResource( 4 ) }
+samples/shoot = { "db":0.0, "pitch":1.0, "sample":ExtResource( 6 ) }
 
 [node name="player" type="RigidBody2D"]
 
 input/pickable = false
 shapes/0/shape = SubResource( 1 )
-shapes/0/transform = Matrix32( 1, 0, 0, 1.76469, 0.291992, -12.1587 )
+shapes/0/transform = Matrix32( 1, -0, 0, 1.76469, 0.291992, -12.1587 )
 shapes/0/trigger = false
 shapes/1/shape = SubResource( 2 )
-shapes/1/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/1/transform = Matrix32( 1, -0, 0, 1, 0, 0 )
 shapes/1/trigger = false
 collision/layers = 1
 collision/mask = 1
@@ -247,7 +247,7 @@ transform/pos = Vector2( 0.291992, -12.1587 )
 transform/scale = Vector2( 1, 1.76469 )
 shape = SubResource( 1 )
 trigger = false
-_update_shape_index = -1
+_update_shape_index = 0
 
 [node name="sound" type="SamplePlayer" parent="."]
 
@@ -270,7 +270,7 @@ default/chorus_send = 0.0
 
 build_mode = 0
 polygon = Vector2Array( -0.138023, 16.5036, -19.902, -24.8691, 19.3625, -24.6056 )
-shape_range = Vector2( -1, -1 )
+shape_range = Vector2( 1, 1 )
 trigger = false
 
 
